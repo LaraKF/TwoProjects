@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4E153E2A22138900504FDD /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E153D2A22138900504FDD /* HomeModel.swift */; };
+		4F4E15402A2213A200504FDD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E153F2A2213A200504FDD /* HomeViewModel.swift */; };
+		4F4E15422A22250100504FDD /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15412A22250100504FDD /* SignInModel.swift */; };
+		4F4E15442A2225D200504FDD /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15432A2225D200504FDD /* SignInViewModel.swift */; };
+		4F4E15462A22386D00504FDD /* SignInUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15452A22386C00504FDD /* SignInUIView.swift */; };
+		4F4E15482A22629C00504FDD /* ExploreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15472A22629C00504FDD /* ExploreModel.swift */; };
+		4F4E154A2A226C8F00504FDD /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15492A226C8F00504FDD /* ExploreViewModel.swift */; };
+		4F4E154E2A22705B00504FDD /* settingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E154D2A22705B00504FDD /* settingsList.swift */; };
+		4F65E19A2A2128B000140A96 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65E1992A2128B000140A96 /* SignInView.swift */; };
+		4F65E19C2A213DB200140A96 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65E19B2A213DB200140A96 /* HomeView.swift */; };
+		4F65E1AC2A21E98F00140A96 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65E1AB2A21E98F00140A96 /* TabBarView.swift */; };
+		4F65E1AE2A21EA4700140A96 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65E1AD2A21EA4700140A96 /* ExploreView.swift */; };
+		4FC427D72A21034F003E5616 /* NftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC427D62A21034F003E5616 /* NftApp.swift */; };
+		4FC427D92A21034F003E5616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC427D82A21034F003E5616 /* ContentView.swift */; };
+		4FC427DB2A210351003E5616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC427DA2A210351003E5616 /* Assets.xcassets */; };
+		4FC427DE2A210351003E5616 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC427DD2A210351003E5616 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F4E153D2A22138900504FDD /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		4F4E153F2A2213A200504FDD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4F4E15412A22250100504FDD /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		4F4E15432A2225D200504FDD /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		4F4E15452A22386C00504FDD /* SignInUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIView.swift; sourceTree = "<group>"; };
+		4F4E15472A22629C00504FDD /* ExploreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreModel.swift; sourceTree = "<group>"; };
+		4F4E15492A226C8F00504FDD /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		4F4E154D2A22705B00504FDD /* settingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsList.swift; sourceTree = "<group>"; };
+		4F65E1992A2128B000140A96 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4F65E19B2A213DB200140A96 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4F65E1AB2A21E98F00140A96 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		4F65E1AD2A21EA4700140A96 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		4FC427D32A21034F003E5616 /* Nft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC427D62A21034F003E5616 /* NftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftApp.swift; sourceTree = "<group>"; };
+		4FC427D82A21034F003E5616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FC427DA2A210351003E5616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC427DD2A210351003E5616 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC427D02A21034F003E5616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC427CA2A21034E003E5616 = {
+			isa = PBXGroup;
+			children = (
+				4FC427D52A21034F003E5616 /* Nft */,
+				4FC427D42A21034F003E5616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC427D42A21034F003E5616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC427D32A21034F003E5616 /* Nft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC427D52A21034F003E5616 /* Nft */ = {
+			isa = PBXGroup;
+			children = (
+				4FC427E62A21041D003E5616 /* ViewModel */,
+				4FC427E52A210375003E5616 /* Model */,
+				4FC427E42A210369003E5616 /* View */,
+				4FC427D62A21034F003E5616 /* NftApp.swift */,
+				4FC427D82A21034F003E5616 /* ContentView.swift */,
+				4FC427DA2A210351003E5616 /* Assets.xcassets */,
+				4FC427DC2A210351003E5616 /* Preview Content */,
+			);
+			path = Nft;
+			sourceTree = "<group>";
+		};
+		4FC427DC2A210351003E5616 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FC427DD2A210351003E5616 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FC427E42A210369003E5616 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F65E1992A2128B000140A96 /* SignInView.swift */,
+				4F65E19B2A213DB200140A96 /* HomeView.swift */,
+				4F65E1AB2A21E98F00140A96 /* TabBarView.swift */,
+				4F65E1AD2A21EA4700140A96 /* ExploreView.swift */,
+				4F4E15452A22386C00504FDD /* SignInUIView.swift */,
+				4F4E154D2A22705B00504FDD /* settingsList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FC427E52A210375003E5616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E153D2A22138900504FDD /* HomeModel.swift */,
+				4F4E15412A22250100504FDD /* SignInModel.swift */,
+				4F4E15472A22629C00504FDD /* ExploreModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FC427E62A21041D003E5616 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E153F2A2213A200504FDD /* HomeViewModel.swift */,
+				4F4E15432A2225D200504FDD /* SignInViewModel.swift */,
+				4F4E15492A226C8F00504FDD /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC427D22A21034F003E5616 /* Nft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC427E12A210351003E5616 /* Build configuration list for PBXNativeTarget "Nft" */;
+			buildPhases = (
+				4FC427CF2A21034F003E5616 /* Sources */,
+				4FC427D02A21034F003E5616 /* Frameworks */,
+				4FC427D12A21034F003E5616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nft;
+			productName = Nft;
+			productReference = 4FC427D32A21034F003E5616 /* Nft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC427CB2A21034E003E5616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4FC427D22A21034F003E5616 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 4FC427CE2A21034E003E5616 /* Build configuration list for PBXProject "Nft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC427CA2A21034E003E5616;
+			productRefGroup = 4FC427D42A21034F003E5616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC427D22A21034F003E5616 /* Nft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FC427D12A21034F003E5616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC427DE2A210351003E5616 /* Preview Assets.xcassets in Resources */,
+				4FC427DB2A210351003E5616 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC427CF2A21034F003E5616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F65E19A2A2128B000140A96 /* SignInView.swift in Sources */,
+				4F4E15482A22629C00504FDD /* ExploreModel.swift in Sources */,
+				4F4E154E2A22705B00504FDD /* settingsList.swift in Sources */,
+				4F65E19C2A213DB200140A96 /* HomeView.swift in Sources */,
+				4FC427D92A21034F003E5616 /* ContentView.swift in Sources */,
+				4F4E15402A2213A200504FDD /* HomeViewModel.swift in Sources */,
+				4F4E15442A2225D200504FDD /* SignInViewModel.swift in Sources */,
+				4F4E153E2A22138900504FDD /* HomeModel.swift in Sources */,
+				4F4E15422A22250100504FDD /* SignInModel.swift in Sources */,
+				4F4E154A2A226C8F00504FDD /* ExploreViewModel.swift in Sources */,
+				4F65E1AC2A21E98F00140A96 /* TabBarView.swift in Sources */,
+				4F4E15462A22386D00504FDD /* SignInUIView.swift in Sources */,
+				4F65E1AE2A21EA4700140A96 /* ExploreView.swift in Sources */,
+				4FC427D72A21034F003E5616 /* NftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FC427DF2A210351003E5616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FC427E02A210351003E5616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FC427E22A210351003E5616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorgainzation.Nft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FC427E32A210351003E5616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorgainzation.Nft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC427CE2A21034E003E5616 /* Build configuration list for PBXProject "Nft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC427DF2A210351003E5616 /* Debug */,
+				4FC427E02A210351003E5616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC427E12A210351003E5616 /* Build configuration list for PBXNativeTarget "Nft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC427E22A210351003E5616 /* Debug */,
+				4FC427E32A210351003E5616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC427CB2A21034E003E5616 /* Project object */;
+}
